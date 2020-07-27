@@ -1,58 +1,31 @@
 # the-ember-elevator-company
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+A simple simulation showing movement of elevators, build using Ember.js framework.
+The simulation constraints:
+* there must be 3 lifts,
+* there must be 5 floors,
+* each floor should have two buttons: one for "UP" and one for "DOWN".
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/manojkumardesai/the-ember-elevator-company` this repository
 * `cd the-ember-elevator-company`
 * `npm install`
-
-## Running / Development
-
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+* The app is hosted at [the-ember-elevator-company-app](https://manojkumardesai.github.io/the-ember-elevator-company/).
+* See the code workflow at [the-ember-elevator-company-workflow](https://whimsical.com/4d5uWxVnS73uGpYFD7PFoZ).
 
-### Running Tests
+### For Running Tests
 
 * `ember test`
 * `ember test --server`
 
-### Linting
+### For Linting
 
 * `npm run lint:hbs`
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 # the-ember-elevator-company
