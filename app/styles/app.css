@@ -75,3 +75,22 @@
 .lifts {
     margin-left: 200px;
 }
+
+.app-btn {
+    font-size: x-large;
+    padding: 20px;
+    margin: 0 50% 0 50%;
+    border-radius: 10px;
+    background-color: darkcyan;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app-btn:hover {
+    background-color: crimson;
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+
+.app-btn:focus {
+    transition: all 1s ease;
+}
