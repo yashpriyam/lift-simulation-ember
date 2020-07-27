@@ -8,7 +8,7 @@ export default class LiftsViewComponent extends Component {
     };
 
     upstart1() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -18,7 +18,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('upAnimation1');
     }
     upstart2() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -28,7 +28,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('upAnimation2');
     }
     upstart3() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -38,7 +38,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('upAnimation3');
     }
     upstart4() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -48,7 +48,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('upAnimation4');
     }
     downstart1() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -58,7 +58,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('downAnimation1');
     }
     downstart2() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -68,7 +68,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('downAnimation2');
     }
     downstart3() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -78,7 +78,7 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('downAnimation3');
     }
     downstart4() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -88,13 +88,13 @@ export default class LiftsViewComponent extends Component {
         rectElement.classList.add('downAnimation4');
     }
     zero() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         rectElement.classList.remove(`${currentClass}`);
         rectElement.classList.add('zeroUp');
     }
     downstart5() {
-        let rectElement = document.getElementById('lift-1');
+        let rectElement = document.getElementById('lift-one');
         let currentClass = rectElement.getAttribute("class");
         rectElement.classList.remove(`${currentClass}`);
         rectElement.classList.add('downAnimation5');
