@@ -2,9 +2,9 @@
 
 A simple simulation showing movement of elevators, build using Ember.js framework.
 The simulation constraints:
-* there must be 3 lifts,
-* there must be 5 floors,
-* each floor should have two buttons: one for "UP" and one for "DOWN".
+* there are 3 lifts,
+* there are 5 floors,
+* each floor has two buttons: one for "UP" and one for "DOWN".
 
 ## Installation
 
