@@ -10,7 +10,6 @@
         "doc": "doc",
         "test": "tests"
     },
-    "homepage": "https://manojkumardesai.github.io/the-ember-elevator-company",
     "scripts": {
         "build": "ember build --environment=production",
         "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
