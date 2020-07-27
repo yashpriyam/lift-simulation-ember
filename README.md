@@ -14,7 +14,7 @@ The simulation constraints:
 * `ember serve`
 
 
-* The app is hosted at [the-ember-elevator-company-app](https://manojkumardesai.github.io/the-ember-elevator-company/).
+* The app is hosted at [the-ember-elevator-company-app](https://modest-hodgkin-e1aec6.netlify.app/lifts).
 * See the code workflow at [the-ember-elevator-company-workflow](https://whimsical.com/4d5uWxVnS73uGpYFD7PFoZ).
 
 ### For Running Tests
