@@ -1,9 +1,14 @@
 import Component from '@glimmer/component';
 
 export default class LiftsViewComponent extends Component {
+    liftTrack = {
+        one: 0,
+        two: 0,
+        three: 0
+    };
+
     upstart1() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -14,7 +19,6 @@ export default class LiftsViewComponent extends Component {
     }
     upstart2() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -25,7 +29,6 @@ export default class LiftsViewComponent extends Component {
     }
     upstart3() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -36,7 +39,6 @@ export default class LiftsViewComponent extends Component {
     }
     upstart4() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -47,7 +49,6 @@ export default class LiftsViewComponent extends Component {
     }
     downstart1() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -58,7 +59,6 @@ export default class LiftsViewComponent extends Component {
     }
     downstart2() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -69,7 +69,6 @@ export default class LiftsViewComponent extends Component {
     }
     downstart3() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
@@ -80,7 +79,6 @@ export default class LiftsViewComponent extends Component {
     }
     downstart4() {
         let rectElement = document.getElementById('lift-1');
-        console.log(rectElement.getAttribute("class"))
         let currentClass = rectElement.getAttribute("class");
         if (currentClass) {
             rectElement.classList.remove(`${currentClass}`);
